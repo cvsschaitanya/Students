@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Students</string>
+
+    <string name="new_student">NEW STUDENT</string>
+    <string name="old_student">EXISTING STUDENT</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome_back">WELCOME BACK</string>
+    <string name="welcome">WELCOME</string>
+    <string name="name">NAME</string>
+    <string name="roll">ROLL NUMBER</string>
+    <string name="subject">SUBJECT</string>
+    <string name="confirm_pass">CONFIRM PASSWORD</string>
+    <string name="signup">SIGN UP</string>
+    <string name="k">kjbksjb\\ndjyegfcuyegifka\\njywedvjwefjsef\\njagdvywaevdciduwgdcixwaciwak\\n</string>
+    <string name="clear">CLEAR DATA</string>
+    <string name="title_activity_stu__deatails">Stu_Deatails</string>
+    <string name="title_activity_nominal_roll">NominalRoll</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="InitialDetails" >SELECT A USERNAME</string>
+
+</resources>

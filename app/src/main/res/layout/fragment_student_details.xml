@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDENT DETAILS"
+        android:textColor="#112DC7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/detailsBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:background="#00BCD4"
+        android:text="@string/InitialDetails"
+        android:textColor="#191B18"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

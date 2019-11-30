@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string-array name="options">
+
+        <item>EXISTING STUDENT</item>
+        <item>NEW STUDENT</item>
+        <item>LIST OF STUDENTS</item>
+        <item>CLEAR DATA</item>
+
+    </string-array>
+
+
+</resources>

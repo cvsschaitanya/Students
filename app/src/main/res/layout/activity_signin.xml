@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_back_color"
+    tools:context=".SIGNIN">
+
+    <TextView
+        android:id="@+id/title_old2"
+        android:layout_width="212dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="40dp"
+        android:background="#00BCED"
+        android:gravity="center"
+        android:password="false"
+        android:text="@string/welcome_back"
+        android:textColor="@color/title_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OPENING"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#2397F3"
+        android:gravity="center"
+        android:password="false"
+        android:textColor="#E9074E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/password_tag"
+        android:layout_width="124dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:password="false"
+        android:text="@string/password"
+        android:textColor="@color/login_headings"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/username_tag"
+        app:layout_constraintTop_toBottomOf="@+id/username_tag" />
+
+    <TextView
+        android:id="@+id/username_tag"
+        android:layout_width="124dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:password="false"
+        android:text="@string/username"
+        android:textColor="@color/login_headings"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/username_tag"
+        app:layout_constraintStart_toEndOf="@+id/username_tag" />
+
+    <EditText
+        android:id="@+id/password_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/password_tag"
+        app:layout_constraintStart_toStartOf="@+id/username_old" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/button_color"
+        android:onClick="checkCreden"
+        android:text="@string/login"
+        android:textColor="@color/title_color"
+        app:layout_constraintStart_toEndOf="@+id/password_tag"
+        app:layout_constraintTop_toBottomOf="@+id/password_old" />
+</androidx.constraintlayout.widget.ConstraintLayout>
